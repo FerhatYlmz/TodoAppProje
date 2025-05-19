@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#009688"
     android:orientation="horizontal"
     android:padding="12dp">
 
@@ -12,12 +12,14 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="@string/sample_task"
-        android:textSize="18sp" />
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/deleteBtn"
         android:layout_width="24dp"
         android:layout_height="24dp"
-        android:src="@android:drawable/ic_delete"
-        android:contentDescription="@string/delete" />
+        android:contentDescription="@string/delete"
+        android:src="@android:drawable/ic_delete" />
 </LinearLayout>

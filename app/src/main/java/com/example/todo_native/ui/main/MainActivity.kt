@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         btnAdd = findViewById(R.id.btnAdd)
         recyclerView = findViewById(R.id.todoRecycler)
 
-        todoList = mutableListOf("Prepare a coffee", "Buy Groceries", "Study Kotlin")
+        todoList = mutableListOf("Deneme111", "Deneme", "Kotlin")
 
         adapter = TodoAdapter(
             todoList,

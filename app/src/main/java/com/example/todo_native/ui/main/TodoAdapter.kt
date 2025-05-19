@@ -34,7 +34,7 @@ class TodoAdapter(
             if (position in tasks.indices) {
                 onDeleteClicked(position)
             } else {
-                Log.e("TodoAdapter", "Invalid position: $position")
+                Log.e("TodoAdapter ", "Invalid position: $position")
             }
         }
 
